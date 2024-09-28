@@ -1,3 +1,9 @@
+# Priority
+# * Command line
+# * Terraform.tfvars
+# * Environment varibles, TF_VAR_ami=
+# * Default
+
 variable "ami_id" {
     type = string
     default = "ami-09c813fb71547fc4f"
